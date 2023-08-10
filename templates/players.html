@@ -1,0 +1,93 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLAYERS</title>
+    <link rel="stylesheet" href="{% static 'css/styles2.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body style="background-image: url('{% static "images/fc1.jpg" %}');">
+    <div class="card" style="width: 18rem;">
+        <img src="{% static 'images/sunil.jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">SUNIL CHETRI</h5>
+          <a href="{% url 'app1:sunil' %}" class="btn btn-primary">MORE DETAILS</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="{% static 'images/neymar.jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">NEYMAR JR</h5>
+          <a href="{% url 'app1:neymar' %}" class="btn btn-primary">MORE DETAILS</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="{% static 'images/messi.jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">MESSI</h5>
+          <a href="{% url 'app2:messi' %}" class="btn btn-primary">MORE DETAILS</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="{% static 'images/k.mbappae.jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">KYLIAN</h5>
+          <a href="{% url 'app2:kmbappae' %}" class="btn btn-primary">MORE DETAILS</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="{% static 'images/levendoski.jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">LEWENDOSKI</h5>
+          <a href="{% url 'app2:levendoski' %}" class="btn btn-primary">MORE DETAILS</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="{% static 'images/maradona.jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">DIEAGO MARADONA</h5>
+          <a href="{% url 'app2:maradona' %}" class="btn btn-primary">MORE DETAILS</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="{% static 'images/zaltan.jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">ZALTAN</h5>
+          <a href="{% url 'app2:zaltan' %}" class="btn btn-primary">MORE DETAILS</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="{% static 'images/marcelo.jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">MARCELO12</h5>
+          <a href="{% url 'app3:marcelo' %}" class="btn btn-primary">MORE DETAILS</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="{% static 'images/pele.jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">PELE</h5>
+          <a href="{% url 'app3:pele' %}" class="btn btn-primary">MORE DETAILS</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="{% static 'images/ramos.jpg' %}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">SERGIO RAMOS</h5>
+        <a href="{% url 'app3:ramos' %}" class="btn btn-primary">MORE DETAILS</a>
+      </div>
+  </div>
+    <div class="btn">
+        <a href="{% url 'app1:football' %}"><button type="button">back</button></a>
+    </div>
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>

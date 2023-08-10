@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive Navbar</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+
+<body style="background-image: url('{% static "images/fc1.jpg" %}');">
+    <header>
+        <div class="logo">
+            <h1>FOOTBALL</h1>
+        </div>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>WELCOME TO FOOTBALL WORLD</h1>
+            <p>Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal. Unqualified, the word football normally means the form of football that is the most popular where the word is used.</p>
+                 <p>Sports commonly called football include association football (known as soccer in North America, Ireland and Australia); gridiron football </p>
+                <div class="details">
+                    <label>TOP 10 PLAYERS</label>
+                    <a href="{% url 'app1:players' %}"><button type="submit" class="btn1">click here</button></a>
+                </div>
+        </section>
+    </main>
+    
+</body>
+</html>
